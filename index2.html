@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>Alcohol and snacks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+       <link rel="stylesheet" href="fontello-bcf36fd2/css/fontello.css">
+       <link rel="stylesheet" href="assets/css/Alcohol and snacks.css" />
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   	   <script>
+   	      $(function(){
+   	      	var pull=$('#pull');
+   	      	    menu=$('nav ul');
+   	      	    menuHeight=menu.height();   	      
+   	      $(pull).on('click', function(e){
+   	      	e.preventDefault();
+   	      	menu.slideToggle();   	      	
+   	      });
+   	      $(window).resize(function(){
+   	      	var w=$(window).width();
+   	      	if(w>600 && menu.is(':hidden'))
+   	      		{menu.removeAttr('style');}
+              });
+          });
+   	   </script>
+	</head>
+    <body>   	   
+        <nav class="clearfix">
+          <ul class="clearfix">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="index2.html">About this</a></li>
+             <li><a href="index3.html">Snacks</a></li>
+             <li><a href="#">Alcohol</a></li>
+             <li><a href="#">Share</a></li>
+             <li><a href="#">Contact us</a></li>
+          </ul>
+          <a id="pull" href="#">Menu</a>
+        </nav>
+      
+      <div id="wrapper">
+        <header id="header">
+            <h1><strong>우리는 맛있는 안주를 소개합니다.</strong><br><strong>모두 같이 맛있는 안주와 술을 알아봅시다.</strong></h1>           
+        </header>
+        <main id="main">
+        </main>
+        <footer id="footer">
+            <p><strong>© Untitled. All rights reserved. Design: </strong><a href="https://github.com/Jung-jihyun"><strong>JUNG JIHYUN.</strong></a></p>
+        </footer>
+      </div>
+      		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+    </body>
+</html>

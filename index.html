@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>Alcohol and snacks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+       <link rel="stylesheet" href="fontello-bcf36fd2/css/fontello.css">
+       <link rel="stylesheet" href="assets/css/Alcohol and snacks.css" />
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   	   <script>
+   	      $(function(){
+   	      	var pull=$('#pull');
+   	      	    menu=$('nav ul');
+   	      	    menuHeight=menu.height();   	      
+   	      $(pull).on('click', function(e){
+   	      	e.preventDefault();
+   	      	menu.slideToggle();   	      	
+   	      });
+   	      $(window).resize(function(){
+   	      	var w=$(window).width();
+   	      	if(w>600 && menu.is(':hidden'))
+   	      		{menu.removeAttr('style');}
+              });
+          });
+   	   </script>
+	</head>
+    <body>   	   
+        <nav class="clearfix">
+          <ul class="clearfix">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="index2.html">About this</a></li>
+             <li><a href="index3.html">Snacks</a></li>
+             <li><a href="#">Alcohol</a></li>
+             <li><a href="#">Share</a></li>
+             <li><a href="#">Contact us</a></li>
+          </ul>
+          <a id="pull" href="#">Menu</a>
+        </nav>
+      
+      <div id="wrapper">
+        <header id="header">
+          <a href="images/main_image.jpg"><span class="main_image"><img src="images/main_image.jpg" alt=""></span></a>
+            <h1><strong>Shares a picture of snacks necessary when drinking.</strong><br><strong>Have a good time.</strong></h1>           
+          <ul class="icons">
+            <li><a href="https://twitter.com/" class="icon-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://web.facebook.com", class="icon-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/" class="icon-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://adfs.dongyang.ac.kr/adfs/ls/?cbcxt=&vv=&username=&mkt=&lc=1042&wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=MEST%3D0%26LoginOptions%3D2%26wa%3Dwsignin1.0%26rpsnv%3D2%26ct%3D1355945139%26rver%3D6.1.6206.0%26wp%3DMCMBI%26wreply%3Dhttps:%252F%252Fportal.microsoftonline.com%252Flanding.aspx%253Ftarget%253D%25252fdefault.aspx%26lc%3D1042%26id%3D271346%26bk%3D1355945139" class="icon-mail"><span class="label">Email</span></a></li>        
+          </ul>
+        </header>
+        <main id="main">
+          <section class="thumbnails">
+            <div>
+                <a href="images/fulls/01.jpg">
+                    <img src="images/thumbs/01.jpg" alt="" />
+                    <h3>참치회</h3>
+                </a>
+                <a href="images/fulls/02.jpg">
+                    <img src="images/thumbs/02.jpg" alt="" />
+                    <h3>딱새우회</h3>
+                </a>             
+            </div>
+            <div>
+                <a href="images/fulls/03.jpg">
+                    <img src="images/thumbs/03.jpg" alt="" />
+                    <h3>마약찜닭 by칠성포차</h3>
+                </a>                  
+                <a href="images/fulls/04.jpg">
+                    <img src="images/thumbs/04.jpg" alt="" />
+                    <h3>모둠꼬치</h3>
+                </a>
+            </div>
+            <div>
+                <a href="images/fulls/05.jpg">
+                    <img src="images/thumbs/05.jpg" alt="" />
+                    <h3>광어회</h3>
+                </a>
+                <a href="images/fulls/06.jpg">
+                    <img src="images/thumbs/06.jpg" alt="" />
+                    <h3>불고기&페페로니피자</h3>
+                </a>
+            </div>
+            <div>
+                <a href="images/fulls/07.jpg">
+                    <img src="images/thumbs/07.jpg" alt="" />
+                    <h3>육회&육사시미</h3>
+                </a>
+                <a href="images/fulls/08.jpg">
+                    <img src="images/thumbs/08.jpg" alt="" />
+                    <h3>양꼬치</h3>
+                </a>
+                <a href="images/fulls/09.jpg">
+                    <img src="images/thumbs/09.jpg" alt="" />
+                    <h3>한신닭발</h3>
+                </a>                                
+            </div>
+          </section>
+        </main>
+        <footer id="footer">
+            <p><strong>© Untitled. All rights reserved. Design: </strong><a href="https://github.com/Jung-jihyun"><strong>JUNG JIHYUN.</strong></a></p>
+        </footer>
+      </div>
+      		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+    </body>
+</html>
